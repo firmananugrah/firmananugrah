@@ -1,0 +1,40 @@
+print ( "Nama :Firman Anugrah Burhanudin" )
+print ( "Kelas : TI J 22" )
+
+cetak ( " \n " )
+
+def  LuasSegitiga ():
+    print ( "======Hitung Luas Segitiga======" )
+    alas  =  float ( input ( "Masukan alasnya: " ))
+    tinggi =  float ( input ( "Masukan Tinggi: " ))
+    luas  =  1/2 * alas * tinggi _ _
+    print ( "Luas Segitiga Adalah: " , luas , ( "cm2" ))
+    
+def  LuasPersegiPanjang ():
+    print ( "======Hitung Luas Persegi Panjang======" )
+    panjang = int ( input ( "Masukan Tinggi: " ))
+    lebar  = int ( input ( "Masukan lebarnya: " ))
+    luas =  panjang * lebar
+    print ( "Luas Lapangan Panjang Adalah :" , luas ,( "cm2" ))
+    
+def  MenentukanBilanganGanjildanGenap () :
+    print ( "======Menentukan Bilangan Ganjil dan Genap======" )
+    bil = int ( input ( "Masukan Bilangan: " ))
+    jika  bil  %  2  ==  0 :
+        print ( "%d adalah bilangan genap"  % bil )
+    lain :
+        print ( "%d adalah bilangan ganjil"  % bil )
+            
+sedangkan  Benar :
+    print ( "====== Program kalkulator Sederhana ======" )
+    masukan pengguna  = int ( masukan (
+        "Menu \n 1. Luas Segitiga \n 2. Luas Persegi Panjang \n 3. Tentukan Nomor Ganjil Genap \n 4. Keluar \n Pilih Nomor: " ))
+    jika ( input pengguna  ==  1 ):
+        LuasSegitiga ()
+    elif ( input pengguna  ==  2 ):
+        LuasPersegiPanjang ()
+    elif ( input pengguna  ==  3 ):
+        MenentukanBilanganGanjildanGenap ()
+    lain :
+        print ( "PROGRAM SELESAI TERIMAKASIH TELAH MEMAKAI APLIKASI KAMI🤞" )
+        merusak
